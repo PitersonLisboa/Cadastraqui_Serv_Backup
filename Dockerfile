@@ -2,7 +2,7 @@ FROM alpine:3.19
 
 # Instala PostgreSQL client, curl e supercronic (cron leve para containers)
 RUN apk add --no-cache \
-    postgresql16-client \
+    postgresql17-client \
     curl \
     bash \
     gzip \
