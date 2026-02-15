@@ -1,6 +1,6 @@
-FROM alpine:3.19
+FROM alpine:3.21
 
-# Instala PostgreSQL client, curl e supercronic (cron leve para containers)
+# Instala PostgreSQL 17 client, curl e supercronic (cron leve para containers)
 RUN apk add --no-cache \
     postgresql17-client \
     curl \
